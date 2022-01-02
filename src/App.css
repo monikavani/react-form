@@ -1,0 +1,33 @@
+.app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  flex-direction: column;
+}
+label{
+  display: block;
+  padding: 0 0 10px 0;
+}
+input[type="radio"] + label{
+  display: inline-block;
+}
+.field{
+  padding-bottom: 15px;
+}
+input:not(input[type="radio"]), 
+select,
+button{
+  height: 30px;
+  font-size: 16px;
+  width: 100%;
+  box-sizing: border-box;
+}
+input[type="radio"], 
+select,
+button{
+  cursor: pointer;
+}
+button{
+  margin-bottom: 20px;
+}
